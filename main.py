@@ -1,10 +1,9 @@
 """
-Newest Natural Disaster Detection APP
 Modularisasi dengan Function
 """
 
 # membuat fungsi yang menghasilkan data dictionary dari data yang diambil
-
+# string ini dijalankan hanya jika aplikasi "main" di eksekusi oleh command line
 
 def ekstraksi_data():
     """
@@ -45,4 +44,4 @@ if __name__ == "__main__":
     result = ekstraksi_data()
     tampilkan_data(result)
 
-# string ini dijalankan hanya jika aplikasi "main" di eksekusi oleh command line
+
