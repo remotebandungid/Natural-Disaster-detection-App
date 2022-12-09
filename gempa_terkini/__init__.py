@@ -70,3 +70,7 @@ def tampilkan_data(result):
     print(f"Lokasi {result['lokasi']}")
     print(f"{result['dirasakan']}")
 
+
+if __name__ == "__main__":
+    result = ekstraksi_data()
+    tampilkan_data(result)
