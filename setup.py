@@ -17,9 +17,9 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     },
     classifiers=[
-        "Programing Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operator System :: OS Independent",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
         "Development Status :: 4 - Beta"
     ],
     packages=setuptools.find_packages(where="src"),
